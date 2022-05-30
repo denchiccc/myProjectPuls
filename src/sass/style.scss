@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'mixins';
+@import 'promo';
+@import 'header';
+@import 'buttons';
+@import 'title';
+@import 'skill';
+@import 'consultion';
+@import 'feed-form';
+@import 'carousel';
+@import 'media';
+*{
+    font-family: 'MuseoModerno', sans-serif;
+}
+.contianer {
+    max-width: 960px;
+    margin: 0 auto;
+}
