@@ -102,12 +102,44 @@
     <section class="carousel">
         <div class="contianer">
             <div class="carousel__iner">
-                <div><img src="img/slide_1.jpg" alt="slide"></div>
-                <div><img src="img/slide_2.jpg" alt="slide"></div>
-                <div><img src="img/slide_3.jpg" alt="slide"></div>
+                <div><img class="carousel__img" src="img/slide_1.jpg" alt="slide"></div>
+                <div><img class="carousel__img" src="img/slide_2.jpg" alt="slide"></div>
+                <div><img class="carousel__img" src="img/slide_3.jpg" alt="slide"></div>
             </div>
         </div>
     </section>
+    <section class="catalog">
+        <div class="contianer">
+            <h2 class="title">Каталог пульсометров</h2>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active">
+                    <div>Для фитнесса</div>
+                </li>
+                <li class="catalog__tab">
+                    <div>Для бега</div>
+                </li>
+                <li class="catalog__tab">
+                    <div>Для триатлона</div>
+                </li>
+            </ul>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <img src="img/pulsometr.png" alt="Puls" class="catalog-item__img">
+                    <div class="catalog-item__subtitle"></div>
+                    <div class="catalog-item__descr"></div>
+                    <a href="" class="catalog-item__link"></a>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price"></div>
+                        <button class="catalog-item__btn"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content"></div>
+            <div class="catalog__content"></div>
+        </div>
+    </section>
+
     <!-- ! Подключем библиотку jquery -->
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
