@@ -10,10 +10,17 @@
 @import 'carousel';
 @import 'catalog';
 @import 'media';
-*{
+
+* {
     font-family: 'MuseoModerno', sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 .contianer {
+    position: relative;
     max-width: 960px;
     margin: 0 auto;
 }
