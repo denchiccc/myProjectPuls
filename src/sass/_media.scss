@@ -32,35 +32,7 @@
         }
     }
 
-    .carousel {
-        padding: 60px 0 50px 0;
 
-        &__iner {
-            width: 400px;
-        }
-
-        &__img {
-            width: 400px;
-        }
-    }
-
-    .slick-next {
-        right: 50px;
-
-        img {
-            width: 28px;
-            height: 45px;
-        }
-    }
-
-    .slick-prev {
-        left: 50px;
-
-        img {
-            width: 28px;
-            height: 45px;
-        }
-    }
 }
 
 @media (max-width: 991px) {
@@ -75,6 +47,40 @@
     .consultion {
         padding: 65px 15px 65px 15px;
     }
+
+    .carousel {
+        &__iner {
+            width: 600px;
+        }
+
+        &__img {
+            width: 100%;
+        }
+    }
+
+    .catalog {
+        &__content {
+            justify-content: space-evenly;
+        }
+
+    }
+
+    .feedback {
+        &__wrapper {
+            padding: 0 10px 0 10px;
+            justify-content: space-evenly;
+        }
+
+        &__img {
+            width: 100%px;
+        }
+
+        &__title {
+            margin-top: 10px;
+        }
+
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -97,7 +103,7 @@
     }
 
     .button {
-        width: 140px;
+
         font-size: 17px;
 
         &__mian {
@@ -167,32 +173,20 @@
     }
 
     .carousel {
-        padding: 60px 0 50px 0;
-
         &__iner {
-            width: 100%;
+            width: 500px;
         }
 
         &__img {
-            width: 340px;
+            width: 500px;
         }
     }
 
-    .slick-next {
-        right: 50px;
-
-        img {
-            width: 23px;
-            height: 38px;
-        }
-    }
-
-    .slick-prev {
-        left: 50px;
-
-        img {
-            width: 23px;
-            height: 38px;
+    .catalog {
+        ul {
+            :nth-child(3) {
+                margin-top: 10px;
+            }
         }
     }
 }
@@ -304,37 +298,21 @@
         }
     }
 
-    .slick-prev,
-    .slick-next {
-        display: none;
-    }
-
     .carousel {
         &__iner {
-            width: 100%;
+            width: 300px;
         }
 
         &__img {
-            width: 270px;
+            width: 300px;
         }
     }
 
-    .tns-nav {
-        position: absolute;
-        display: block;
-        left: 50%;
-        transform: translateX(-50%);
-
-        button {
-            width: 10px;
-            height: 10px;
-            padding: 0;
-            margin: 0 10px 0 10px;
-            border-radius: 100%;
+    .catalog {
+        ul {
+            :nth-child(2) {
+                margin-top: 10px;
+            }
         }
-    }
-
-    .tns-nav-active {
-        background: $mian-color;
     }
 }

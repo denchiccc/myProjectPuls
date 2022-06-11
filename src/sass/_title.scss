@@ -4,10 +4,16 @@
     font-size: 30px;
     text-align: center;
     color: #0D0D0D;
+    text-transform: uppercase;
 
     &_catalog {
         font-weight: 400;
-        text-transform: uppercase;
+
         margin: 0;
+    }
+
+    &_feedback {
+        margin: 0;
+
     }
 }
