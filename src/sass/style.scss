@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'mixins';
+@import 'animation';
 @import 'promo';
 @import 'header';
 @import 'buttons';
@@ -11,6 +12,8 @@
 @import 'catalog';
 @import 'feedback';
 @import 'footer';
+@import 'modal';
+@import 'pugeup';
 @import 'media';
 
 * {
