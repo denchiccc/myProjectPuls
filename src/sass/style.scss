@@ -1,5 +1,11 @@
-@import 'variables';
+@import 'libs/normalize';
+@import 'libs/fonts';
+@import 'libs/slick';
+@import 'libs/animate';
+
 @import 'mixins';
+@import 'variables';
+
 @import 'animation';
 @import 'promo';
 @import 'header';
