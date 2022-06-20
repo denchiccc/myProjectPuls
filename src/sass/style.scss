@@ -3,24 +3,24 @@
 @import 'libs/slick';
 @import 'libs/animate';
 
-@import 'mixins';
-@import 'variables';
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/animation';
 
-@import 'animation';
-@import 'promo';
-@import 'header';
-@import 'buttons';
-@import 'title';
-@import 'skill';
-@import 'consultion';
-@import 'feed-form';
-@import 'carousel';
-@import 'catalog';
-@import 'feedback';
-@import 'footer';
-@import 'modal';
-@import 'pugeup';
-@import 'media';
+@import 'bloks/promo';
+@import 'bloks/header';
+@import 'bloks/buttons';
+@import 'bloks/title';
+@import 'bloks/skill';
+@import 'bloks/consultion';
+@import 'bloks/feed-form';
+@import 'bloks/carousel';
+@import 'bloks/catalog';
+@import 'bloks/feedback';
+@import 'bloks/footer';
+@import 'bloks/modal';
+@import 'bloks/pugeup';
+@import 'bloks/media';
 
 * {
     font-family: 'MuseoModerno', sans-serif;
